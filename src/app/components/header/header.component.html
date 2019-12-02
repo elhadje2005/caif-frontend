@@ -1,0 +1,53 @@
+<header>
+  <nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background-color: white;color: #4493D2;">
+    <a  style="color: #4493D2;" class="navbar-brand" routerLink="/home">
+
+      <img src="./assets/params/images/logo/Logo-CAIF.png" width="100" height="70" alt="">
+    </a>
+    <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-color: #4493D2;"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a style="color: #4493D2;" class="nav-link" routerLink="/home">
+            <i class="fas fa-home mr-1"></i>
+              Accueil
+          </a>
+        </li>
+        <li class="nav-item active dropdown" style="color: #4493D2;">
+          <div class="dropdown show">
+            <a style="color: #4493D2;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+              <i class="fas fa-utensils mr-2"></i>Hôtellerie-Restauration
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" routerLink="/hotellericap">CAP</a>
+              <a class="dropdown-item" routerLink="/hotelleribep">BEP</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item active dropdown">
+          <div class="dropdown show">
+          <a style="color: #4493D2;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-cut mr-1"></i> Couture-Confection
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" routerLink="/couturecap">CAP</a>
+
+            </div>
+      </div>
+        </li>
+
+        <li class="nav-item active">
+          <a style="color: #4493D2;" class="nav-link" routerLink="/contact">
+            <i class="fas fa-envelope mr-1"></i> Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

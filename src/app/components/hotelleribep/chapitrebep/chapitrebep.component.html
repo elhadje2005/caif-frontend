@@ -1,0 +1,214 @@
+<div class="col-sm-12">
+  <div class="row" style="padding-top: 25px;">
+  <button type="button" (click)="getCuisine()" class="btn btn-outline-primary col-sm-4">Cuisine</button>
+  <button type="button" (click)="getPatisserie()" class="btn btn-outline-primary col-sm-4">Patisserie</button>
+  <button type="button" (click)="getServiceBar()" class="btn btn-outline-primary col-sm-4">Service-Bar</button>
+  </div>
+  </div>
+<div *ngIf=" rep === 'cuisine' || rep === ''"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Cuisine</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cuisinecaif.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+            <p class="" style="color: black;">Introduction à la cuisine</p>
+            <!--<p class="" style="color: black;">Propose un minimum de 80 heures de formations : en Hygiène, cuisine, Boulangerie, Pâtisserie,
+              Couture, Coupe, Dessin,
+              Teinture, Coiffure ou Leadership etc. Des formations adaptées en fonctions de vos besoins et proposées à
+              travers tous le
+              Sénégal</p>-->
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/hr2.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Comprendre les bases de la cuisine</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/hr3.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet de cuisine</h5>
+            <p class="" style="color: black;">Travaux pratiques sur une recette donnée</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
+<div *ngIf="rep === 'patisserie'"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Patisserie</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/patisseriecaif.jpg"  width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+            <p class="" style="color: black;">Introduction à la patisserie</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/p2.jpg" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Comprendre les bases de la patisserie</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/p3.jpg" width="70%" height="100%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet de patisserie</h5>
+            <p class="" style="color: black;">Réaliser un gâteau</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
+<div *ngIf="rep === 'service'"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Service</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/serviceBar.jpg"  width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+            <p class="" style="color: black;">Introduction au service bar</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/serviceBar2.jpg" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Les fondamentaux du service bar</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/coursbep">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/serviceBar3.jpg" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet</h5>
+            <p class="" style="color: black;">Mise en situation du service bar</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
+

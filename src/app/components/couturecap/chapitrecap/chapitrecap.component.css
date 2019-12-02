@@ -1,0 +1,7 @@
+.borderul{
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 6px inset;
+  border-radius: 10px;
+}
+.borderul ul:hover{
+ box-shadow: 1.25rem 0rem 1.5rem #888888;
+}

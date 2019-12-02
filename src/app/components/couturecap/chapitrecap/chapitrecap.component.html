@@ -1,0 +1,213 @@
+<div class="col-sm-12">
+  <div class="row" style="padding-top: 25px;">
+  <button type="button" (click)="getCoupeCouture()" class="btn btn-outline-primary col-sm-4">Coupe-Couture</button>
+  <button type="button" (click)="getDessinDeMode()" class="btn btn-outline-primary col-sm-4">Dessin de Mode</button>
+  <button type="button" (click)="getArtisanat()" class="btn btn-outline-primary col-sm-4">Artisanat</button>
+  </div>
+  </div>
+<div *ngIf=" rep === 'coupeCouture' || rep === ''"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Coupe-Couture</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr9.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+           <!-- <p class="" style="color: black;">Propose un minimum de 80 heures de formations : en Hygiène, cuisine, Boulangerie, Pâtisserie,
+              Couture, Coupe, Dessin,
+              Teinture, Coiffure ou Leadership etc. Des formations adaptées en fonctions de vos besoins et proposées à
+              travers tous le
+              Sénégal</p>-->
+              <p>Introduction à la Couture</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr2.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Comprendre les bases de la couture</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr7.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet de Couture</h5>
+            <p class="" style="color: black;">Traveaux pratiques sur une coupe donnée</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
+<div *ngIf="rep === 'dessinDeMode'"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Dessin de mode</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr6.JPG"  width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+            <p class="" style="color: black;">Initiation au dessin de mode.</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr4.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Comprendre les bases du dessin de mode</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/cr5.JPG" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet de dessin de mode</h5>
+            <p class="" style="color: black;">Travaux pratique sur le dessin de mode</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
+<div *ngIf="rep === 'artisanat'"style="padding-top: 5%;padding-bottom: 10%;">
+
+  <h1 class="text-center" style="color: #4493D2;">Artisanat</h1>
+<div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/artisanat.jpg"  width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 1.Introduction</h5>
+            <p class="" style="color: black;">Initation à l'artisanat</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/artisanat2.jpg" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 2.Prise en main</h5>
+            <p class="" style="color: black;">Comprendre les bases de l'artisanat</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+    <div class="borderul">
+  <ul>
+    <a class="nav-link" routerLink="/courscap">
+  <div class="col-sm-12">
+  <div class="row">
+
+        <div class="col-sm-4">
+          <img src="./assets/params/images/logo/artisanat3.jpg" width="70%"  alt="...">
+        </div>
+            <div class="col-sm-6">
+            <h5 class="">Chapitre 3.Projet d'artisanat</h5>
+            <p class="" style="color: black;">Travaux pratiques sur l'artisanat</p>
+            </div>
+
+    </div>
+    </div>
+    </a>
+
+  </ul>
+
+    </div>
+</div>
